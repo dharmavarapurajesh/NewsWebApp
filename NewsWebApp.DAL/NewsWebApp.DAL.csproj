@@ -10,6 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NewsWebApp.Core\NewsWebApp.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="NewsWebApp.Core">
       <HintPath>..\NewsWebApp.Core\bin\Debug\netcoreapp3.1\NewsWebApp.Core.dll</HintPath>
     </Reference>
