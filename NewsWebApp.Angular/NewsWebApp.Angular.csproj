@@ -24,11 +24,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NewsWebApp.DAL\NewsWebApp.DAL.csproj">
+      <Private>true</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="NewsWebApp.Core">
       <HintPath>..\NewsWebApp.Core\bin\Debug\netcoreapp3.1\NewsWebApp.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="NewsWebApp.DAL">
-      <HintPath>..\NewsWebApp.DAL\bin\Debug\netcoreapp3.1\NewsWebApp.DAL.dll</HintPath>
+      <Private>true</Private>
     </Reference>
   </ItemGroup>
 
